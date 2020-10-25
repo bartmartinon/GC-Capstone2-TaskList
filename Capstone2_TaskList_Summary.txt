@@ -1,1 +1,7 @@
-Summary will go here.
+A class is a template or a blueprint that describes the supported behavior and state of all objects of its type, while an object itself is an instance of a class.
+
+Think of the class as the instruction manual or cooking recipe while an object is what is made when following said instruction manual or reciple.
+
+Public methods can be accessed by any other code in the same assembly or another assembly that references it. Meanwhile, a private method can only be access by code found in the same class or struct file.
+
+Let's say we have a Program.cs file and a Class1.cs file. Public methods in Class1 can be accessed from Program.cs, but private methods can only be accessed from inside Class1.
